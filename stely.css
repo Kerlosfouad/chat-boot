@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+  background-size: cover;
+}
+
+.content{
+  height: 60vh;
+  overflow-y: auto;
+  width: 88%;
+ border-radius: 10px;
+ padding: 30px;
+ background-color:white;
+ box-shadow: 0px 26px 75px -5px  rgb(180, 176, 176);
+ color: rgb(79, 79, 79);;
+ font-family: "Poppins", sans-serif;
+
+ 
+}
+.chat{
+  display: inline-block;
+  width: 40px;
+  border-radius: 50px;
+  position: relative;
+  bottom: 4px;
+  right: 4px;
+}
+.chat2{
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+
+/*** carousel-surpe ***/
+
+.carousel-wrap {
+  margin: 10px ;
+  padding: 0 5%;
+  width: 85%;
+  position: relative;
+}
+
+
+
+/* fix blank or flashing items on carousel */
+.owl-carousel{
+  display: flex;
+}
+.owl-carousel .item {
+  position: relative;
+  z-index: 100; 
+  backface-visibility: hidden; 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(193, 192, 192);
+  border-radius: 10px;
+  padding: 5px;
+  height: 100%;
+}
+.owl-carousel .item a{
+  text-decoration: none;
+  color: black;
+}
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.owl-nav i {
+  font-size: 52px;
+  color: #0088cc;
+}
+
+.owl-nav .owl-prev {
+  left: -30px;
+}
+
+.owl-nav .owl-next {
+  right: -30px;
+}
+
+.user-message{
+  direction: rtl;
+  text-align: right;
+}
+.response-message{
+  direction: ltr;
+  text-align: left;
+  font-size: 16px;
+  text-wrap: balance;
+  display: flex;
+  max-width: auto !important;
+  height: content;
+  background-color: rgb(230 230 230);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.response-message .fa-comments{
+  margin-right: 10px;
+  color: #0088cc;
+  background-color: white;
+  height: 17px;
+}
+.footer .form{
+  position: relative;
+}
+.footer .ul-suggestions{
+  background-color: white;
+  box-shadow: 0px -30px 71px -39px;
+    position: absolute;
+    z-index: 100;
+    bottom: 33px;
+    left: 17px;
+    width: 314px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+.footer .ul-suggestions li{
+  display: flex;
+  font-size: 13px;
+  margin: 5px 0 5px 0;
+  width: 100%;
+  position: relative;
+  right: 10px;
+  transition: all 0.2s linear;
+}
+.footer .ul-suggestions li:hover{
+  background-color: rgb(148, 148, 148);
+}
+.footer input{
+  width: 80%;
+  height: 50px;
+position: relative;
+top: 0px;
+ border-radius: 5px 0 0 5px ;
+ border: 1px solid;
+ padding: 10PX ;
+ border-right: none;
+ box-shadow: 0px 26px 75px -5px  rgb(107, 107, 107);
+ border: none;
+ background-color: white;
+}
+
+.footer input:focus {
+
+  outline: none;
+}
+
+.footer .submit {
+  position: relative;
+top: 0px;
+width:10%;
+ border: 5px solid  #0088cc ;
+outline: none;
+border-radius: 0px 5px 5px 0px ;
+background-color: #0088cc;
+color: white;
+box-shadow: 0px 26px 75px -5px rgb(107, 107, 107);
+
+}
